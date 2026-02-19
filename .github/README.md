@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-servicediscovery`](https://www.npmjs.com/package/@aws-sdk/client-servicediscovery/v/3.30.0).
+[`@aws-sdk/client-servicediscovery`](https://www.npmjs.com/package/@aws-sdk/client-servicediscovery/v/3.31.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-servicediscovery@3.30.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-servicediscovery@3.31.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-uBPvjMHJ8biZuvyclkxUtkjag8Lu0UDBfZS/2kwfYlH7SS30zRQOsGKcWm5hO3BG
+sha384-LjmIldR1567ctgSsM6AhvuprKZ2gFSLD7qYw+Zn8qF2LLPrUyjicAAfo36L3Eu/S
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-servicediscovery": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-servicediscovery@3.30.0/index.min.mjs"
+            "@aws-sdk/client-servicediscovery": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-servicediscovery@3.31.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-servicediscovery@3.30.0/index.min.mjs": "sha384-uBPvjMHJ8biZuvyclkxUtkjag8Lu0UDBfZS/2kwfYlH7SS30zRQOsGKcWm5hO3BG"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-servicediscovery@3.31.0/index.min.mjs": "sha384-LjmIldR1567ctgSsM6AhvuprKZ2gFSLD7qYw+Zn8qF2LLPrUyjicAAfo36L3Eu/S"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-servicediscovery": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-servicediscovery@3.30.0/index.min.mjs"
+                        "@aws-sdk/client-servicediscovery": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-servicediscovery@3.31.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-servicediscovery@3.30.0/index.min.mjs": "sha384-uBPvjMHJ8biZuvyclkxUtkjag8Lu0UDBfZS/2kwfYlH7SS30zRQOsGKcWm5hO3BG"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-servicediscovery@3.31.0/index.min.mjs": "sha384-LjmIldR1567ctgSsM6AhvuprKZ2gFSLD7qYw+Zn8qF2LLPrUyjicAAfo36L3Eu/S"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.30.0`)
+* Always pin to a specific version (`@3.31.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-servicediscovery/blob/refs/tags/3.30.0/LICENSE
+https://github.com/cloud-sdk-builds/client-servicediscovery/blob/refs/tags/3.31.0/LICENSE
 ```
 
 ---
